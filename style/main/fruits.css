@@ -1,0 +1,162 @@
+@import url(../fonts.css);
+
+:root {
+  --OsB: 'OpenSans-Bold';
+  --OsR: 'OpenSans-Regular';
+  --OsBd: 'OpenSans-SemiBold';
+  --RB: 'Roboto-Bold';
+  --RI: 'Roboto-Italic';
+  --RL: 'Roboto-Light';
+  --RM: 'Roboto-Medium';
+  --YR: 'Yellowtail-Regular';
+  --white: #FFF;
+  --black: #000;
+  --light__green: #68A47F;
+  --dark__blue: #274C5B;
+  --gray: #D4D4D4;
+  --light__yellow: #EFD372;
+  --whitesmoke: #F9F8F8;
+}
+
+.fruits-box {
+  display: flex;
+  column-gap: 36px;
+}
+
+.fruits-box__itemLeft {
+  background: url(../../images/banana.jpg) no-repeat center /cover;
+  max-width: 600px;
+  width: 100%;
+  height: 320px;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.fruits-itemLeft__miniTitle {
+  color: var(--white);
+  font-family: var(--YR);
+  font-size: 36px;
+  line-height: 49px;
+  margin-bottom: 5px;
+  margin-left: 50px;
+}
+
+.fruits-itemLeft__title {
+  color: var(--white);
+  font-family: var(--RB);
+  font-size: 40px;
+  line-height: 47px;
+  max-width: 277px;
+  width: 100%;
+  margin-left: 50px;
+}
+
+.fruits-box__itemRight {
+  background: url(../../images/fruits.jpg) no-repeat center /cover;
+  max-width: 600px;
+  width: 100%;
+  height: 320px;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.fruits-itemRight__miniTitle {
+  color: var(--light__green);
+  font-family: var(--YR);
+  font-size: 36px;
+  line-height: 49px;
+  margin-bottom: 5px;
+  margin-left: 50px;
+}
+
+.fruits-itemRight__title {
+  color: var(--dark__blue);
+  font-family: var(--RB);
+  font-size: 40px;
+  line-height: 47px;
+  max-width: 277px;
+  width: 100%;
+  margin-left: 50px;
+}
+
+.fruits-about {
+  background: rgba(249, 248, 248, 1);
+  height: 700px;
+  display: flex;
+  margin-top: 190px;
+}
+
+.fruits-about__box {
+  display: flex;
+  align-items: center;
+}
+
+.fruits-about__left {
+  width: 100%;
+}
+
+.fruits-about__photo {
+  width: 575px;
+}
+
+.fruits-about__miniTitle {
+  color: var(--light__green);
+  font-family: var(--YR);
+  font-size: 36px;
+  line-height: 49px;
+}
+
+.fruits-about__title {
+  color: var(--dark__blue);
+  font-family: var(--RB);
+  font-size: 50px;
+  line-height: 59px;
+}
+
+.fruits-about__text {
+  color: #525C60;
+  font-size: 18px;
+  line-height: 165.4%;
+  width: 690px;
+  margin-top: 14px;
+}
+
+.fruits-about__info {
+  display: flex;
+  align-items: center;
+}
+
+.fruits-info__icon {
+  margin-right: 20px;
+  border-radius: 20px;
+  background: var(--white);
+  padding: 23px 27px 32px 28px;
+}
+
+.fruits-info__title {
+  color: #274C5B;
+  font-family: var(--RB);
+  font-size: 25px;
+  line-height: 29px;
+}
+
+.fruits-info__text {
+  color: #525C60;
+  font-size: 18px;
+  line-height: 30px;
+  max-width: 500px;
+  width: 100%;
+}
+
+.fruits-about__btn {
+  padding: 28px 39px;
+  border-radius: 16px;
+  background: var(--dark__blue);
+  color: var(--white);
+  font-family: var(--RB);
+  align-items: center;
+}

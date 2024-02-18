@@ -1,0 +1,237 @@
+@import url(../fonts.css);
+
+:root {
+  --OsB: 'OpenSans-Bold';
+  --OsR: 'OpenSans-Regular';
+  --OsBd: 'OpenSans-SemiBold';
+  --RB: 'Roboto-Bold';
+  --RI: 'Roboto-Italic';
+  --RL: 'Roboto-Light';
+  --RM: 'Roboto-Medium';
+  --YR: 'Yellowtail-Regular';
+  --white: #FFF;
+  --black: #000;
+  --light__green: #68A47F;
+  --dark__blue: #274C5B;
+  --gray: #525C60;
+  --light__yellow: #EFD372;
+  --whitesmoke: #F9F8F8;
+}
+
+/* ********* Root end *********** */
+
+.products-shop {
+  margin-top: 176px;
+}
+
+.products-shop__miniTitle {
+  color: var(--light__green);
+  font-family: var(--YR);
+  font-size: 36px;
+  line-height: 49px;
+  text-align: center;
+}
+
+.products-shop__title {
+  color: var(--dark__blue);
+  text-align: center;
+  font-family: var(--RB);
+  font-size: 50px;
+  line-height: 59px;
+  margin-bottom: 40px;
+}
+
+.products-shop__content {
+  display: grid;
+  row-gap: 20px;
+  padding-bottom: 122px;
+}
+
+.products-shop__block {
+  display: flex;
+  column-gap: 20px;
+}
+
+.products-block__item {
+  max-width: 335px;
+  width: 100%;
+  height: 100%;
+  border-radius: 30px;
+  background: var(--whitesmoke);
+  padding: 30px;
+}
+
+.products-item__name {
+  font-family: var(--OsBd);
+  font-size: 15px;
+  line-height: 20px;
+  color: var(--white);
+  padding: 12px 6px;
+  border-radius: 8px;
+  background: var(--dark__blue);
+  width: 100%;
+  margin-bottom: 13px;
+  text-align: center;
+}
+
+.products-item__photo {
+  width: 100%;
+}
+
+.products-item__title {
+  color: var(--dark__blue);
+  font-family: var(--RB);
+  font-size: 20px;
+  line-height: 23px;
+  margin-top: 2px;
+  margin-bottom: 19px;
+  position: relative;
+}
+
+.products-item__title::after {
+  content: '';
+  display: block;
+  background: #000;
+  max-width: 277px;
+  width: 100%;
+  position: absolute;
+  top: 43px;
+}
+
+.products-item__rating {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.products-rating__price {
+  display: flex;
+  column-gap: 8px;
+  align-items: flex-end;
+}
+
+.products-rating__oldprice {
+  color: #B8B8B8;
+  font-size: 15px;
+  line-height: 20px;
+  text-align: center;
+  font-family: var(--OsBd);
+}
+
+.products-rating__newprice {
+  color: var(--dark__blue);
+  font-size: 18px;
+  line-height: 25px;
+  font-family: var(--OsB);
+}
+
+.products-content__btn {
+  margin-bottom: 122px;
+  margin-top: 122px;
+  border-radius: 16px;
+  background: var(--dark__blue);
+  padding: 28px 49px 28px 46px;
+  color: var(--white);
+  font-family: var(--RB);
+  font-size: 20px;
+  line-height: 23px;
+}
+
+.products-review {
+  margin-top: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.products-review__testimonial {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.products-review__miniTitle {
+  color: var(--light__green);
+  font-family: var(--YR);
+  font-size: 36px;
+  line-height: 49px;
+}
+
+.products-review__title {
+  color: var(--dark__blue);
+  font-family: var(--RB);
+  font-size: 50px;
+  line-height: 59px;
+}
+
+.products-review__photo {
+  border-radius: 50%;
+  color: var(--gray);
+  font-size: 18px;
+  line-height: 165.4%;
+  margin-top: 60px;
+}
+
+.products-review__text {
+  color: var(--gray);
+  font-size: 18px;
+  line-height: 165.4%;
+  max-width: 700px;
+  width: 100%;
+  margin: 20px 0;
+}
+
+.products-review__name {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.products-name__title {
+  color: var(--dark__blue);
+  font-family: var(--RB);
+  font-size: 25px;
+  line-height: 29px;
+}
+
+.products-name__job {
+  color: var(--gray);
+  font-size: 15px;
+  line-height: 165.4%;
+  margin-bottom: 19px;
+}
+
+.products-review__counters {
+  margin-top: 204px;
+  display: flex;
+  column-gap: 62px;
+}
+
+.products-counters__chart {
+  border: solid 5px var(--light__green);
+  background: var(--whitesmoke);
+  border-radius: 50%;
+  width: 211px;
+  height: 211px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.products-chart__percentage {
+  color: #274C5B;
+  text-align: center;
+  font-family: var(--RB);
+  font-size: 50px;
+  line-height: 59px;
+}
+
+.products-chart__title {
+  color: #274C5B;
+  text-align: center;
+  font-family: var(--OsBd);
+  font-size: 18px;
+  line-height: 165.4%;
+}
